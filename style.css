@@ -100,11 +100,15 @@
 .product-text {
   height: 10%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  font-family: "skater_girls_rockregular", Arial, sans-serif;
   color: #2a8e1c;
   font-size: 22px;
+}
+
+.product-text h2 {
+  font-family: "skater_girls_rockregular";
+  margin-top: 0.2rem;
 }
 
 #empty-square {
@@ -115,4 +119,44 @@
   position: absolute;
   width: 19rem;
   top: 20%;
+}
+
+/***** Bottom section *****/
+.bottom-section {
+  height: 100vh;
+}
+
+.contact {
+  height: 90vh;
+  background-color: #99ccff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact p {
+  color: #ff3333;
+  font-family: "skater_girls_rockregular";
+  font-size: 60px;
+  margin-bottom: 3rem;
+}
+
+.contact div {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact img {
+  width: 20%;
+}
+
+footer {
+  height: 10vh;
+  background-color: #015a84;
+  color: #99ccff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
