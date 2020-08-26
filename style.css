@@ -102,7 +102,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  font-family: "skater_girls_rockregular";
+  font-family: "skater_girls_rockregular", Arial, sans-serif;
   color: #2a8e1c;
   font-size: 22px;
 }
