@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Bahnschrift;
+  /* skater_girls_rockregular */
+}
+
+.top-section {
+  height: 100vh;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-area {
+  height: 90%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.main-area p {
+  color: #0f1954;
+  font-size: 24px;
+  width: 42rem;
+}
+
+.image-container {
+  width: 410px;
+  border: 1rem solid lightblue;
+  border-radius: 10px;
+  height: 206px;
+  box-shadow: 4px 4px 16px black;
+}
+
+.the-game-img {
+  width: 100%;
+}
+.image-container:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 32px black;
+}
+
+.to-the-shop {
+  height: 10%;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.to-the-shop {
+  width: 45%;
+  text-align: center;
+}
+
+.to-the-shop img {
+  width: 10%;
+}
+
+/***** Product section *****/
+.product-section {
+  height: 100vh;
+  background-image: url("./img/bg2.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products {
+  height: 45rem;
+  width: 40rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.product {
+  background-color: #94db3d;
+}
+
+.product-image {
+  height: 90%;
+  background-color: red;
+}
+
+.product-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "skater_girls_rockregular";
+}
