@@ -73,26 +73,46 @@
 }
 
 .products {
-  height: 45rem;
+  height: 41rem;
   width: 40rem;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
 
 .product {
   background-color: #94db3d;
+  box-shadow: 4px 4px 16px black;
 }
 
 .product-image {
   height: 90%;
-  background-color: red;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.product-image img {
+  width: 85%;
 }
 
 .product-text {
+  height: 10%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-family: "skater_girls_rockregular";
+  color: #2a8e1c;
+  font-size: 22px;
+}
+
+#empty-square {
+  position: relative;
+}
+
+#the-game {
+  position: absolute;
+  width: 19rem;
+  top: 20%;
 }
