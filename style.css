@@ -33,7 +33,7 @@
 
 .image-container {
   width: 410px;
-  border: 1rem solid lightblue;
+  border: 1rem solid #99ccff;
   border-radius: 10px;
   height: 206px;
   box-shadow: 4px 4px 16px black;
@@ -159,4 +159,127 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 850px) {
+  .main-area {
+    width: 90%;
+  }
+
+  .logo-img {
+    width: 100%;
+  }
+
+  .main-area p {
+    width: 100%;
+  }
+
+  .to-the-shop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .to-the-shop img {
+    width: 10%;
+  }
+
+  .products {
+    width: 35rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .product {
+    display: flex;
+    height: 100%;
+  }
+
+  .product-image {
+    height: 92%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .product-image img {
+    height: 90%;
+  }
+
+  .product-text {
+    height: 100%;
+    width: 100%;
+  }
+
+  .product-text h2 {
+    margin-top: 0rem;
+  }
+
+  #the-game {
+    position: absolute;
+    width: 11rem;
+    height: 7rem;
+    top: 20%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .bottom-section {
+    height: 200px;
+  }
+
+  .contact {
+    height: 100%;
+  }
+
+  .contact p {
+    display: none;
+  }
+
+  .contact img {
+    width: 18%;
+  }
+
+  .contact div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .main-area {
+    width: 90%;
+  }
+
+  .image-container {
+    width: 200px;
+    border: 1rem solid #99ccff;
+    border-radius: 10px;
+    height: 100px;
+    box-shadow: 4px 4px 16px black;
+  }
+
+  .main-area p {
+    font-size: 14px;
+  }
+
+  .products {
+    width: 18rem;
+    height: 30rem;
+  }
+
+  #the-game {
+    width: 5.5rem;
+    height: 4rem;
+  }
 }
