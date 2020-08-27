@@ -262,15 +262,15 @@ footer {
   }
 
   .image-container {
-    width: 200px;
+    width: 220px;
     border: 1rem solid #99ccff;
     border-radius: 10px;
-    height: 100px;
+    height: 110px;
     box-shadow: 4px 4px 16px black;
   }
 
   .main-area p {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .products {
